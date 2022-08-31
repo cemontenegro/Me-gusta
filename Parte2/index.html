@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Network</h2>
+    </header>
+    <main>
+        <div class="main-t">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="col">
+            <div class="col-i">
+                <div class="perfil">
+                    <img src="user-circle.png" alt="user" height="80" width="80">
+                    <h3><span>Add an avatar</span></h3>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+            <div class="col-d">
+                <div class="ventana">
+                    <div class="b1">
+                        <div>
+                            <h2>Neil M</h2>
+                        </div>
+                        <div class="like">
+                            <span id="p0" class="count"></span>
+                            <button onclick="like(0)" class="like_btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="b2">
+                        <h3>I just set up this new discord bot, let me know what you all think <span>link</span></h3>
+                    </div>
+                </div>
+                <div class="ventana">
+                    <div class="b1">
+                        <div>
+                            <h2>Nichole K</h2>
+                        </div>
+                        <div class="like">
+                            <span id="p1" class="count"></span>
+                            <button onclick="like(1)" class="like_btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="b2">
+                        <h3>Just finished my <span>next comic</span>, check it out.</h3>
+                    </div>
+                </div>
+                <div class="ventana" id="jim_r">
+                    <div class="b1">
+                        <div>
+                            <h2>Jim R</h2>
+                        </div>
+                        <div class="like">
+                            <span id="p2" class="count"></span>
+                            <button onclick="like(2)" class="like_btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="b2">
+                        <h3>I can´t stop listering to the <span>new album</span>. Who else is liking it?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header{
+    background-color: black;
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    height: 70px;
+    font-size: 25px;
+}
+
+header h2 {
+    padding-left: 20px;
+}
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col{
+    display: flex;
+    width: 100%;
+}
+
+.col-i {
+    flex: 1;
+    margin: 30px 15px 30px 0px;
+}
+
+.col-d {
+    flex: 2.7;
+    margin: 30px 0px 30px 15px;
+}
+
+.ventana, .perfil {
+    border: 4px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.perfil {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1, .b2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.like {
+    display:inline-flex;
+    align-items: center;
+    justify-items: end;
+}
+
+.like_btn {
+    background-color: #ffd966;
+    padding: 5px 25px;
+    color: black;
+    font-size: 20px;
+    box-shadow: 5px 5px 1px black;
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.main-t {
+    display: flex;
+    align-items: center;
+}
+
+.b2 span {
+    color: blue;
+    text-decoration: underline;
+}
+
+.perfil h2, .perfil h3 {
+    margin-top: 30px;
+}
+
+.perfil h2 {
+    font-size: 30px;
+}
+
+.like span {
+    font-weight: bolder;
+    font-size: larger;
+}
